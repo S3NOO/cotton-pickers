@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(35, 35, 35);
+  
+}
+
+.header {
+position: fixed;
+background-color:rgb(57, 57, 57);
+width: 1522px;
+height: 70px;
+border-radius: 5px;
+padding-top: 13px;
+margin-top: 0px;
+}
+
+.header-fr {
+  width: 100%;
+  padding-left: 250px;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.note {
+margin-left: 50px;
+padding-top: 60px;
+padding-left: 500px;
+padding-right: 600px;
+position: fixed;
+}
+
+.note-fr {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 40px;
+  position: ;
+  background-color:rgb(57, 57, 57);
+  height: 50px;
+  border-radius: 5px;
+}
+
+
+p {
+  font-family: Arial;
+  color: white;
+  width: 400px;
+}
+
+
+.grid {
+padding-left: 50px;
+}
+
+.funny-pics {
+  width: 400px;
+  border-radius: 20px;
+  height: 300px;
+}
+.preview {
+
+margin-top: 140px;
+margin-left: 50px;
+border: 1px solid white;
+display: inline-block;
+background-color: rgb(57, 57, 57);
+border-radius: 20px;
+}
+
+.names {
+  font-weight: bold;
+}
+
+
+.buttons {
+  padding-left: 200px;
+  padding-top: 55px;
+  border: none;
+}
+
+.buy-now {
+  margin-left: 460px;
+  display: grid;
+  grid-template-rows: max-content;
+  padding: 20px 50px 20px 50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.buy-now:hover {
+  padding: 40px 70px 40px 70px;
+  font-size: 20px;
+}
+
